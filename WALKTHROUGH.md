@@ -4,7 +4,7 @@ Portfolio Project #2. Student: AYUB ADNAN. Student ID: 2674270. Language: C++. I
 
 Open a terminal in this folder, run `build.bat`, then run `shop.exe`. Stay in this folder while the program is running, because it reads and writes the `data` folder here. Choose option 8 to exit. A normal exit returns 0.
 
-The compiler is g++ from MinGW (w64devkit, GCC 16.2.0). `build.bat` uses that compiler when `g++` is not already on your PATH.
+The compiler is g++ from MinGW (w64devkit, GCC 16.2.0). `build.bat` uses that compiler when `g++` is not already on your PATH. The build prints `Preprocessor: compiling Shop Inventory and Billing System 1.0` from `#pragma message` in `include/config.h`. How to run, screenshots, and the presentation script are in `README.md` and `PRESENTATION.md`.
 
 ## What to say first
 

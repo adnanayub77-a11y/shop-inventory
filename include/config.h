@@ -23,4 +23,9 @@
 #define MAX_DISCOUNT_PERCENT 100
 #define MAX_STOCK 100000
 
+// Printed while compiling, so the log shows the preprocessor ran before the compiler.
+#ifdef SHOP_ANNOUNCE_BUILD
+#pragma message("Preprocessor: compiling " APP_NAME " " APP_VERSION)
+#endif
+
 #endif

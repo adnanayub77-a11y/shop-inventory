@@ -4,7 +4,8 @@
  * Student: AYUB ADNAN
  * Student ID: 2674270
  * Language: C++17
- * Interface: console menus
+ * Compiler: MinGW GCC (build.bat, or make). Clang also builds this source (make clang).
+ * Interface: console menus. Option 8 saves and returns 0.
  *
  * AI tools used for this project:
  * 1. Cursor (Grok) wrote this source code, compiled it with g++, and tested every menu.
@@ -12,6 +13,7 @@
  *    the warning for damaged product lines, and the data-folder path at startup.
  */
 
+#define SHOP_ANNOUNCE_BUILD
 #include "config.h"
 #include "InventorySystem.h"
 #include "textutil.h"
